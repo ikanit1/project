@@ -1,5 +1,5 @@
-def test_add():
-    assert add(2, 3) == 999  # ← заведомо неверное значение
+def add(a, b):
+    return a + b  
 
 
 def subtract(a, b):
