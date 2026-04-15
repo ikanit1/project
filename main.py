@@ -1,6 +1,5 @@
-def add(a, b):
-    """Сложение двух чисел."""
-    return a + b
+def test_add():
+    assert add(2, 3) == 999  # ← заведомо неверное значение
 
 
 def subtract(a, b):
